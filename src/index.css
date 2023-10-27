@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  font-family: "EB Garamond", serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  background: #4e54c8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #8f94fb,
+    #4e54c8
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: #d3cce3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e9e4f0,
+    #d3cce3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0px;
+}
+
+button {
+  font-family: "EB Garamond", serif;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Kanit", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+#root {
+  margin: 0;
+}
+
+.icon-button {
+  border: 0px;
+  cursor: pointer;
+  background-color: transparent;
+}

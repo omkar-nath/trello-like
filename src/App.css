@@ -1,0 +1,154 @@
+.App-header {
+  background-color: #452c63;
+  height: 3rem;
+  text-align: center;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.add-new-list {
+  width: 200px;
+  height: 60px;
+  color: white;
+  background-color: #662d91;
+  cursor: pointer;
+  font-size: medium;
+  font-weight: bold;
+  border: 0;
+  border-radius: 10px;
+}
+
+.list-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.card {
+  cursor: pointer;
+  min-width: 20rem;
+  display: flex;
+  color: #875053;
+  flex-direction: column;
+  margin-right: 2rem;
+  margin-left: 10px;
+  min-height: 10rem;
+  border-radius: 10px;
+  background: #d3cce3;
+}
+.card-head {
+  padding: 1rem;
+  text-transform: capitalize;
+  font-weight: bolder;
+  text-align: center;
+}
+.addnewButton {
+  background-color: transparent;
+  width: 10rem;
+  color: rgb(87, 17, 17);
+  font-weight: bolder;
+  height: 2rem;
+  border: 0;
+  cursor: pointer;
+  font-size: medium;
+  top: 9rem;
+  left: 1rem;
+  margin-bottom: 1rem;
+}
+
+.title-input,
+.list-title-input {
+  height: 4rem;
+  padding: 1rem;
+  width: 16.4rem;
+  border-radius: 0.6rem;
+  border: 1px white;
+  font-size: medium;
+}
+
+.card-body {
+  display: flex;
+  width: 100%;
+  color: rgb(87, 17, 17);
+  font-weight: bolder;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.newTaskInput {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+  flex-direction: column;
+}
+
+.btn {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.addnew-task-btn {
+  margin-top: 1rem;
+  background-color: transparent;
+  height: 2rem;
+  width: 10rem;
+}
+.taskItem {
+  cursor: move;
+  padding-left: 10px;
+  width: 18rem;
+  margin-bottom: 10px;
+  line-height: 1rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  line-height: 40px;
+  border-radius: 5px;
+  height: 3rem;
+}
+
+.card-footer {
+  top: 5rem;
+  align-self: center;
+}
+.currently-dragging {
+  background: black;
+  color: white;
+}
+
+.editButton {
+  cursor: pointer;
+  color: #662d91;
+}
+
+.addnewtaskBtn,
+.add-list-btn {
+  background-color: #452c63;
+  height: 3rem;
+  width: 10rem;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border: white;
+  border-radius: 1rem;
+}
+.cancel:hover {
+  background-color: #e9e4f0;
+  border: 1px;
+}
+.cancel {
+  cursor: pointer;
+}
+
+.taskEditOptions {
+  align-self: flex-end;
+}
+
+.deleteButton {
+  margin-top: 1rem;
+  color: #662d91;
+}
